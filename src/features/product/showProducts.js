@@ -23,16 +23,16 @@ export default function ShowProducts() {
     const [isLoading, setIsLoading] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
     const [arr, setArr] = useState([]);
-    let arrCart = useSelector(st => st.myCart.cart);
+    // let arrCart = useSelector(st => st.myCart.cart);
     let navigate = useNavigate();
-    let dispatch = useDispatch();
+    // let dispatch = useDispatch();
     const myUser = JSON.parse(localStorage.getItem('myUser'));
     const [currentPage, setCurrentPage] = useState(1);
     const [hasMoreProducts, setHasMoreProducts] = useState(true);
     const sentinelRef = useRef(null);
     const [visible, setVisible] = useState(false);
     const initialFetchDoneRef = useRef(false);
-    let user = useSelector((state) => state.user.currentUser);
+    // let user = useSelector((state) => state.user.currentUser);
     const fetchData = async () => {
         try {
             setIsLoading(true);
