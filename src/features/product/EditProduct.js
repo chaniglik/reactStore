@@ -31,10 +31,9 @@ export default function EditProduct() {
                 nameProduct: formData.nameProduct,
             };
 
-            alert(user._id)
             await updateProductToServer(product._id, updatedProduct, user.token)
 
-            alert("עודכן המוצר  ");
+            alert("המוצר עודכן");
         }
         catch (error) {
             alert("Failed לעדכן מוצר");
