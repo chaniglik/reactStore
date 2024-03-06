@@ -1,0 +1,22 @@
+.button-amount{
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: white;
+    color:#494949
+    
+}
+.blockToPay{
+    background-color: #c8b4a9;
+    color: #494949;
+    width: 250px;
+ height: 40px;
+ border:2px solid #c8b4a9
+}
+.blockToGo{
+    background-color:#494949 ;
+    color:white ;
+    width: 250px;
+ height: 40px;
+ border:2px solid #494949
+}
